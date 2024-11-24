@@ -1,9 +1,9 @@
-import {Navbar} from 'react-bootstrap';
+import {Navbar, Container} from 'react-bootstrap';
 export const Header = () => {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Brand Link</Navbar.Brand>
+        <Navbar.Brand href="#home">Carga de productos</Navbar.Brand>
         </Container>  
     </Navbar>
   )
